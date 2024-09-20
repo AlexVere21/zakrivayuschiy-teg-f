@@ -220,7 +220,6 @@
   block-size: 100%;
 }
 
-/*стили наведения применяются только для устройств, которые его поддерживают*/
 @media (hover: hover) {
   .button:hover::before {
     transform: scaleX(1);
@@ -236,7 +235,6 @@
   mix-blend-mode: difference;
 }
 
-/*фильтры для изображений*/
 
 .bright_blur {
   filter: blur(1.2rem) opacity(0.7);
@@ -329,8 +327,6 @@ dialog::backdrop {
   opacity: 0.75;
   background-color: #000000;
 }
-
-/*медиазапрос*/
 
 @media (width <= 375px) {
   .footer__button-save {
