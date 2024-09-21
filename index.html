@@ -20,7 +20,14 @@
   <body class="page">
     <header class="header card">
       <nav class="theme-menu header__theme-menu">
-        <span class="header_logo"> &lt;/HTML&gt; </span>
+
+        <!-- Чтобы логотип был ссылкой, но без перехода по ссылке, 
+        и не получал видимый фокус при навигации с клавиатуры:
+        role="link" добавляет поведение ссылки, но не делает её интерактивной.
+        tabindex="-1" убирает элемент из последовательности фокусировки. -->
+
+        <span class="header_logo" role="link" tabindex="-1"> &lt;/HTML&gt; </span>
+        
         <h1 class="header_tittle">закрывающий тег</h1>
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -597,21 +604,20 @@
           </div>
         </li>
       </ul>
-    </main>
-
-    <footer class="footer">
+    
       <button
-        type="button"
-        class="footer__button-save card button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg class="footer__floppy-ico" viewBox="0 0 39 39">
-          <use href="./svg/floppy.svg#floppy" />
-        </svg>
-        <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
-      </button>
-    </footer>
+      type="button"
+      class="footer__button-save card button"
+      onclick="window['dialog-id'].showModal()"
+      aria-controls="dialog-id"
+    >
+      <svg class="footer__floppy-ico" viewBox="0 0 39 39">
+        <use href="./svg/floppy.svg#floppy" />
+      </svg>
+      <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
+    </button>
+
+    </main>
 
     <dialog id="dialog-id" class="dialog__window">
       <div class="dialog__content">

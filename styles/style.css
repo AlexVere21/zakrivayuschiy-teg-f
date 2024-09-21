@@ -264,10 +264,6 @@
   filter: invert(0.2) brightness(120%) saturate(130%) hue-rotate(30deg);
 }
 
-.footer {
-  margin: 50px auto 100px;
-}
-
 .footer__button-save {
   display: flex;
   flex-direction: row;
@@ -275,6 +271,7 @@
   align-items: center;
   padding: 15px 21px 15px 19px;
   gap: 9px;
+  margin: 50px auto 100px;
 }
 
 .footer__floppy-ico {
