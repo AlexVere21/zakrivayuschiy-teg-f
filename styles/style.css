@@ -237,23 +237,27 @@
 
 
 .bright_blur {
-  filter: blur(1.2rem) opacity(0.7);
+  filter: blur(10px);
 }
 
 .invert {
-  filter: invert(0.7);
+  filter: invert(0.8);
+}
+
+.saturate1 {
+  filter: saturate(2);
 }
 
 .saturate {
-  filter: saturate(258%);
+  filter: saturate(0.5);
 }
 
 .sepia {
-  filter: sepia(78%) brightness(120%);
+  filter: sepia(1);
 }
 
 .hue-rotate {
-  filter: hue-rotate(-245deg) contrast(0.5);;
+  filter: hue-rotate(-245deg) contrast(0.5);
 }
 
 .grayscale {
@@ -261,7 +265,7 @@
 }
 
 .variety {
-  filter: invert(0.2) brightness(120%) saturate(130%) hue-rotate(30deg);
+  filter: hue-rotate(45deg);
 }
 
 .footer__button-save {
