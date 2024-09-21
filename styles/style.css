@@ -253,7 +253,7 @@
 }
 
 .hue-rotate {
-  filter: hue-rotate(95deg);
+  filter: hue-rotate(-245deg) contrast(0.5);;
 }
 
 .grayscale {
