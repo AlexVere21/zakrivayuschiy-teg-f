@@ -164,7 +164,7 @@
 }
 
 .content__text {
-  padding: 26px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -173,7 +173,6 @@
 
 .content__button {
   display: flex;
-  gap: 4px;
   justify-content: end;
   position: relative;
 }
