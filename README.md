@@ -9,4 +9,4 @@
 
 [Ссылка на репозиторий](https://github.com/AlexVere21/zakrivayuschiy-teg-f.git)
 
-
+![Текст с описанием картинки](Dark.png)
