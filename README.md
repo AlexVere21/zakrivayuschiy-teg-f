@@ -6,6 +6,7 @@
 
 
 [Ссылка на сайт](https://alexvere21.github.io/zakrivayuschiy-teg-f/)
+
 [Ссылка на репозиторий](https://github.com/AlexVere21/zakrivayuschiy-teg-f.git)
 
-![Текст с описанием картинки](/dev/post.jpg)
+
