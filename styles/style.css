@@ -244,7 +244,7 @@
   filter: invert(0.8);
 }
 
-.saturate1 {
+.saturate-hard {
   filter: saturate(2);
 }
 
